@@ -1,0 +1,7 @@
+{
+  "name": "YOVU Insurance Website Mockup",
+  "description": "Static multipage prototype for YOVU insurance-first website.",
+  "repository": "https://github.com/<your-org>/yovu-insurance-website-mockup",
+  "keywords": ["node", "express", "static-site", "insurance", "prototype"],
+  "env": {}
+}
