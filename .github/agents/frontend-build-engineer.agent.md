@@ -31,11 +31,28 @@ Implement the YOVU prototype as a performant, semantic, static multipage website
 3. Avoid heavy JS when CSS or native HTML solves the requirement.
 4. Keep files organized for easy handoff and maintenance.
 
+## YOVU Design System Quick Reference
+
+### CSS Tokens (defined in /public/assets/css/styles.css)
+- `--yovu-blue: #2d9fd9`, `--yovu-dark: #0a2847`, `--yovu-mid: #1a6aad`
+- `--yovu-light: #7bc4e8`, `--yovu-pale: #d4ecf7`, `--yovu-wash: #eef6fb`
+- Font: Inter (Google Fonts, weights 400/500/600/700)
+
+### Logo Paths
+- Header: `/assets/images/logos/yovu-logo.png` (class `.brand-logo`)
+- Footer: same path (class `.footer-logo`)
+
+### Shared Page Structure
+- All pages use identical `<header>` with mega-nav (Product/Solutions/Proof groups) and `<footer>` with 4-column layout.
+- Nav toggle: `[data-nav-toggle]` / `[data-nav-menu]`
+- Common sections: `.hero`, `.trust-bar`, `.section-heading`, `.section-grid > .card`, `.assurance-band`, `.cta-band`
+
 ## Technical Definition of Done
 - No broken internal links.
 - No critical console errors.
 - Pages render at common breakpoints.
 - CTA targets match approved map.
+- All pages use YOVU blue palette and Inter font.
 
 ## Tool Access
 - `read`, `search`, `edit`: implement and refactor page and asset files.

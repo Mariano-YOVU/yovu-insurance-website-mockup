@@ -18,6 +18,12 @@ applyTo: "**/*.{html,css,js,md}"
 - Mobile-first layouts.
 - Clear hierarchy and strong scannability.
 - Maintain accessibility-conscious contrast and focus states.
+- Use the YOVU blue palette defined in `/public/assets/css/styles.css`:
+  - Primary: `#2d9fd9` (yovu-blue), Dark: `#0a2847`, Mid: `#1a6aad`
+  - Light: `#7bc4e8`, Pale: `#d4ecf7`, Wash: `#eef6fb`
+- Font: Inter (Google Fonts, weights 400/500/600/700).
+- Logo: `/assets/images/logos/yovu-logo.png` in header and footer.
+- Navigation: mega-nav with Product/Solutions/Proof groups + Book a Demo CTA.
 
 ## Engineering Rules
 - Use semantic HTML5, reusable CSS, and lightweight JavaScript.
