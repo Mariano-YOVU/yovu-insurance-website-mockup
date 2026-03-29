@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <filter id="panelShadow2" x="-5%" y="-3%" width="110%" height="108%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#0a2847" flood-opacity="0.18"/>
+    </filter>
+    <filter id="innerShadow" x="-2%" y="-2%" width="104%" height="106%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0a2847" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="600" fill="#eef6fb"/>
+
+  <!-- Panel -->
+  <rect x="50" y="15" width="500" height="570" rx="14" fill="#ffffff" filter="url(#panelShadow2)"/>
+  <!-- Header -->
+  <rect x="50" y="15" width="500" height="52" rx="14" fill="#2d9fd9"/>
+  <rect x="50" y="53" width="500" height="14" fill="#2d9fd9"/>
+  <text x="80" y="47" font-family="Inter,sans-serif" font-size="14" font-weight="700" fill="#ffffff">Call Summary — Sarah Johnson</text>
+  <text x="510" y="47" font-family="Inter,sans-serif" font-size="11" fill="#d4ecf7">✕</text>
+
+  <!-- Recording Playback Bar -->
+  <rect x="70" y="82" width="460" height="54" rx="10" fill="#eef6fb" filter="url(#innerShadow)"/>
+  <!-- Play button -->
+  <circle cx="100" cy="109" r="16" fill="#2d9fd9"/>
+  <polygon points="95,101 95,117 109,109" fill="#ffffff"/>
+  <!-- Timeline bar -->
+  <rect x="128" y="106" width="380" height="6" rx="3" fill="#d4ecf7"/>
+  <rect x="128" y="106" width="160" height="6" rx="3" fill="#2d9fd9"/>
+  <circle cx="288" cy="109" r="8" fill="#2d9fd9" stroke="#ffffff" stroke-width="2"/>
+  <!-- Time labels -->
+  <text x="128" y="126" font-family="Inter,sans-serif" font-size="9" fill="#3b5068">01:47</text>
+  <text x="488" y="126" font-family="Inter,sans-serif" font-size="9" fill="#3b5068" text-anchor="end">04:32</text>
+
+  <!-- AI Summary Section -->
+  <text x="80" y="158" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0a2847">AI Summary</text>
+  <rect x="70" y="166" width="460" height="80" rx="8" fill="#f8fafc" filter="url(#innerShadow)"/>
+  <rect x="86" y="180" width="420" height="10" rx="3" fill="#e2e8f0"/>
+  <rect x="86" y="198" width="380" height="10" rx="3" fill="#e2e8f0"/>
+  <rect x="86" y="216" width="340" height="10" rx="3" fill="#e2e8f0"/>
+  <!-- AI icon -->
+  <rect x="430" y="172" width="84" height="22" rx="11" fill="#d4ecf7"/>
+  <text x="442" y="187" font-family="Inter,sans-serif" font-size="9" font-weight="600" fill="#1a6aad">✦ AI Generated</text>
+
+  <!-- Sentiment Tag -->
+  <text x="80" y="272" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0a2847">Sentiment</text>
+  <rect x="148" y="260" width="72" height="22" rx="11" fill="#dcfce7"/>
+  <text x="163" y="275" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#16a34a">● Positive</text>
+
+  <!-- Topic Tags -->
+  <text x="80" y="310" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0a2847">Topics</text>
+  <rect x="134" y="296" width="68" height="22" rx="11" fill="#d4ecf7"/>
+  <text x="148" y="311" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#1a6aad">Renewal</text>
+  <rect x="210" y="296" width="72" height="22" rx="11" fill="#d4ecf7"/>
+  <text x="222" y="311" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#1a6aad">Payment</text>
+  <rect x="290" y="296" width="82" height="22" rx="11" fill="#d4ecf7"/>
+  <text x="302" y="311" font-family="Inter,sans-serif" font-size="10" font-weight="500" fill="#1a6aad">Follow-up</text>
+
+  <!-- Divider -->
+  <rect x="70" y="330" width="460" height="1" fill="#d4ecf7"/>
+
+  <!-- Transcript -->
+  <text x="80" y="354" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#0a2847">Transcript</text>
+
+  <!-- Transcript line 1 -->
+  <rect x="70" y="364" width="460" height="42" rx="6" fill="#eef6fb"/>
+  <text x="86" y="381" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#2d9fd9">Agent (You) — 0:00</text>
+  <text x="86" y="396" font-family="Inter,sans-serif" font-size="11" fill="#0f1e2e">Good afternoon, Sarah. I can see your policy details here.</text>
+
+  <!-- Transcript line 2 -->
+  <rect x="70" y="414" width="460" height="42" rx="6" fill="#f8fafc"/>
+  <text x="86" y="431" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#0a2847">Sarah Johnson — 0:08</text>
+  <text x="86" y="446" font-family="Inter,sans-serif" font-size="11" fill="#0f1e2e">Hi! Yes, I'm calling about my renewal coming up next month.</text>
+
+  <!-- Transcript line 3 -->
+  <rect x="70" y="464" width="460" height="42" rx="6" fill="#eef6fb"/>
+  <text x="86" y="481" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#2d9fd9">Agent (You) — 0:15</text>
+  <text x="86" y="496" font-family="Inter,sans-serif" font-size="11" fill="#0f1e2e">I see the renewal date is April 15. Let me pull up the options.</text>
+
+  <!-- Transcript line 4 -->
+  <rect x="70" y="514" width="460" height="42" rx="6" fill="#f8fafc"/>
+  <text x="86" y="531" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#0a2847">Sarah Johnson — 0:28</text>
+  <text x="86" y="546" font-family="Inter,sans-serif" font-size="11" fill="#0f1e2e">That would be great. I also wanted to discuss payment options.</text>
+
+  <!-- Scroll indicator -->
+  <rect x="538" y="364" width="4" height="60" rx="2" fill="#d4ecf7"/>
+</svg>

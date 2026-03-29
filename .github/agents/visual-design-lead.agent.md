@@ -25,12 +25,14 @@ Create a bold, cohesive visual system that supports conversion and readability a
 - Page-level layout guidance.
 - Styling rules for components and states.
 - Visual QA findings and fixes.
+- Image briefs for the Graphics Designer (what asset is needed, dimensions, content description, placement).
 
 ## Guardrails
 1. Prioritize clarity and intentional hierarchy.
 2. Ensure mobile-first responsiveness.
 3. Maintain accessible color contrast and interaction states.
 4. Preserve copy integrity and CTA prominence.
+5. **Do not create image files directly** — write image briefs and hand off to the Graphics Designer agent.
 
 ## YOVU Design System Reference
 

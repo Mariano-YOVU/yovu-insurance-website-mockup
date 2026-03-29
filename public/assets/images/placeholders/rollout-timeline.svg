@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200">
+  <rect width="1000" height="200" fill="#f7f9fb" rx="12"/>
+
+  <!-- Connecting line -->
+  <line x1="100" y1="80" x2="900" y2="80" stroke="#d4ecf7" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Progress fill (to Go-Live) -->
+  <line x1="100" y1="80" x2="700" y2="80" stroke="#2d9fd9" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Step 1: Discovery -->
+  <circle cx="100" cy="80" r="24" fill="#0a2847" stroke="#2d9fd9" stroke-width="3"/>
+  <text x="100" y="85" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#ffffff" font-weight="700">1</text>
+  <text x="100" y="44" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14">🔍</text>
+  <text x="100" y="124" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Discovery</text>
+  <text x="100" y="142" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Workflow mapping</text>
+
+  <!-- Step 2: Configuration -->
+  <circle cx="300" cy="80" r="24" fill="#0a2847" stroke="#2d9fd9" stroke-width="3"/>
+  <text x="300" y="85" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#ffffff" font-weight="700">2</text>
+  <text x="300" y="44" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14">⚙️</text>
+  <text x="300" y="124" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Configuration</text>
+  <text x="300" y="142" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">System setup</text>
+
+  <!-- Step 3: Training -->
+  <circle cx="500" cy="80" r="24" fill="#0a2847" stroke="#2d9fd9" stroke-width="3"/>
+  <text x="500" y="85" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#ffffff" font-weight="700">3</text>
+  <text x="500" y="44" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14">🎓</text>
+  <text x="500" y="124" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Training</text>
+  <text x="500" y="142" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Role-based sessions</text>
+
+  <!-- Step 4: Go-Live -->
+  <circle cx="700" cy="80" r="24" fill="#2d9fd9" stroke="#ffffff" stroke-width="3"/>
+  <text x="700" y="85" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#ffffff" font-weight="700">4</text>
+  <text x="700" y="44" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14">🚀</text>
+  <text x="700" y="124" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Go-Live</text>
+  <text x="700" y="142" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Supported launch</text>
+
+  <!-- Step 5: Ongoing -->
+  <circle cx="900" cy="80" r="24" fill="#eef6fb" stroke="#2d9fd9" stroke-width="2" stroke-dasharray="4"/>
+  <text x="900" y="85" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14" fill="#1a6aad" font-weight="700">5</text>
+  <text x="900" y="44" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14">🤝</text>
+  <text x="900" y="124" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Ongoing</text>
+  <text x="900" y="142" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Support &amp; optimisation</text>
+
+  <!-- Bottom note -->
+  <text x="500" y="180" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="600" fill="#6b8299">Canadian team involved at every stage — not just during setup</text>
+</svg>

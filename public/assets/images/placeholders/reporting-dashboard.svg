@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <filter id="ds" x="-2%" y="-2%" width="104%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0a2847" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" fill="#f7f9fb" rx="12"/>
+
+  <!-- Title -->
+  <text x="400" y="32" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="14" font-weight="700" fill="#0a2847">Team Communication Dashboard</text>
+
+  <!-- Metric cards -->
+  <g filter="url(#ds)">
+    <rect x="30" y="50" width="170" height="80" rx="12" fill="#ffffff" stroke="#d4dde6" stroke-width="1"/>
+    <text x="50" y="78" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="600" fill="#6b8299" letter-spacing="0.06em">TOTAL CALLS</text>
+    <text x="50" y="112" font-family="Inter,system-ui,sans-serif" font-size="28" font-weight="700" fill="#0a2847">1,247</text>
+    <text x="160" y="112" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#27ca40" font-weight="600">↑ 12%</text>
+  </g>
+
+  <g filter="url(#ds)">
+    <rect x="220" y="50" width="170" height="80" rx="12" fill="#ffffff" stroke="#d4dde6" stroke-width="1"/>
+    <text x="240" y="78" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="600" fill="#6b8299" letter-spacing="0.06em">MISSED CALLS</text>
+    <text x="240" y="112" font-family="Inter,system-ui,sans-serif" font-size="28" font-weight="700" fill="#0a2847">23</text>
+    <text x="296" y="112" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#27ca40" font-weight="600">↓ 8%</text>
+  </g>
+
+  <g filter="url(#ds)">
+    <rect x="410" y="50" width="170" height="80" rx="12" fill="#ffffff" stroke="#d4dde6" stroke-width="1"/>
+    <text x="430" y="78" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="600" fill="#6b8299" letter-spacing="0.06em">AVG RESPONSE</text>
+    <text x="430" y="112" font-family="Inter,system-ui,sans-serif" font-size="28" font-weight="700" fill="#0a2847">12s</text>
+    <text x="486" y="112" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#27ca40" font-weight="600">↓ 3s</text>
+  </g>
+
+  <g filter="url(#ds)">
+    <rect x="600" y="50" width="170" height="80" rx="12" fill="#ffffff" stroke="#d4dde6" stroke-width="1"/>
+    <text x="620" y="78" font-family="Inter,system-ui,sans-serif" font-size="10" font-weight="600" fill="#6b8299" letter-spacing="0.06em">ACTIVE USERS</text>
+    <text x="620" y="112" font-family="Inter,system-ui,sans-serif" font-size="28" font-weight="700" fill="#0a2847">34</text>
+    <text x="672" y="112" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299" font-weight="600">of 38</text>
+  </g>
+
+  <!-- Bar chart -->
+  <g filter="url(#ds)">
+    <rect x="30" y="154" width="480" height="320" rx="12" fill="#ffffff" stroke="#d4dde6" stroke-width="1"/>
+    <text x="54" y="184" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="600" fill="#0a2847">Call Volume — This Week</text>
+
+    <!-- Y axis labels -->
+    <text x="52" y="216" font-family="Inter,system-ui,sans-serif" font-size="9" fill="#6b8299">300</text>
+    <text x="52" y="264" font-family="Inter,system-ui,sans-serif" font-size="9" fill="#6b8299">200</text>
+    <text x="52" y="312" font-family="Inter,system-ui,sans-serif" font-size="9" fill="#6b8299">100</text>
+    <text x="58" y="360" font-family="Inter,system-ui,sans-serif" font-size="9" fill="#6b8299">0</text>
+
+    <!-- Grid lines -->
+    <line x1="76" y1="212" x2="480" y2="212" stroke="#f0f3f7" stroke-width="1"/>
+    <line x1="76" y1="260" x2="480" y2="260" stroke="#f0f3f7" stroke-width="1"/>
+    <line x1="76" y1="308" x2="480" y2="308" stroke="#f0f3f7" stroke-width="1"/>
+    <line x1="76" y1="356" x2="480" y2="356" stroke="#d4dde6" stroke-width="1"/>
+
+    <!-- Bars — Monday -->
+    <rect x="100" y="230" width="28" height="126" rx="4" fill="#2d9fd9"/>
+    <rect x="132" y="280" width="28" height="76" rx="4" fill="#7bc4e8"/>
+    <text x="130" y="380" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Mon</text>
+
+    <!-- Bars — Tuesday -->
+    <rect x="185" y="216" width="28" height="140" rx="4" fill="#2d9fd9"/>
+    <rect x="217" y="270" width="28" height="86" rx="4" fill="#7bc4e8"/>
+    <text x="215" y="380" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Tue</text>
+
+    <!-- Bars — Wednesday -->
+    <rect x="270" y="240" width="28" height="116" rx="4" fill="#2d9fd9"/>
+    <rect x="302" y="290" width="28" height="66" rx="4" fill="#7bc4e8"/>
+    <text x="300" y="380" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Wed</text>
+
+    <!-- Bars — Thursday -->
+    <rect x="355" y="224" width="28" height="132" rx="4" fill="#2d9fd9"/>
+    <rect x="387" y="276" width="28" height="80" rx="4" fill="#7bc4e8"/>
+    <text x="385" y="380" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Thu</text>
+
+    <!-- Bars — Friday -->
+    <rect x="440" y="250" width="28" height="106" rx="4" fill="#2d9fd9"/>
+    <rect x="472" y="300" width="28" height="56" rx="4" fill="#7bc4e8"/>
+    <text x="470" y="380" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Fri</text>
+
+    <!-- Legend -->
+    <rect x="340" y="174" width="10" height="10" rx="2" fill="#2d9fd9"/>
+    <text x="356" y="184" font-family="Inter,system-ui,sans-serif" font-size="9" fill="#6b8299">Inbound</text>
+    <rect x="408" y="174" width="10" height="10" rx="2" fill="#7bc4e8"/>
+    <text x="424" y="184" font-family="Inter,system-ui,sans-serif" font-size="9" fill="#6b8299">Outbound</text>
+
+    <!-- Week summary -->
+    <text x="54" y="456" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Total: 1,247 calls · Avg 249/day · Peak: Tuesday</text>
+  </g>
+
+  <!-- Donut chart -->
+  <g filter="url(#ds)">
+    <rect x="530" y="154" width="240" height="320" rx="12" fill="#ffffff" stroke="#d4dde6" stroke-width="1"/>
+    <text x="554" y="184" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="600" fill="#0a2847">Call Types</text>
+
+    <!-- Donut chart -->
+    <circle cx="650" cy="300" r="80" fill="none" stroke="#d4ecf7" stroke-width="24"/>
+    <circle cx="650" cy="300" r="80" fill="none" stroke="#2d9fd9" stroke-width="24" stroke-dasharray="351 502" stroke-dashoffset="0" transform="rotate(-90 650 300)"/>
+    <circle cx="650" cy="300" r="80" fill="none" stroke="#1a6aad" stroke-width="24" stroke-dasharray="126 502" stroke-dashoffset="-351" transform="rotate(-90 650 300)"/>
+
+    <!-- Center label -->
+    <text x="650" y="296" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="22" font-weight="700" fill="#0a2847">1,247</text>
+    <text x="650" y="316" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">total calls</text>
+
+    <!-- Legend -->
+    <rect x="554" y="410" width="10" height="10" rx="2" fill="#2d9fd9"/>
+    <text x="570" y="420" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">Inbound (70%)</text>
+    <rect x="554" y="430" width="10" height="10" rx="2" fill="#1a6aad"/>
+    <text x="570" y="440" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">Outbound (25%)</text>
+    <rect x="554" y="450" width="10" height="10" rx="2" fill="#d4ecf7"/>
+    <text x="570" y="460" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">Missed (5%)</text>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+  <rect width="1000" height="300" fill="#f7f9fb" rx="12"/>
+
+  <!-- Step 1 -->
+  <g>
+    <rect x="20" y="60" width="170" height="140" rx="14" fill="#ffffff" stroke="#2d9fd9" stroke-width="2"/>
+    <rect x="40" y="80" width="36" height="36" rx="8" fill="#d4ecf7"/>
+    <text x="58" y="104" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16">📞</text>
+    <text x="40" y="136" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="700" fill="#0a2847">Referral / Lead</text>
+    <text x="40" y="156" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">Inbound call or referral</text>
+    <text x="40" y="170" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">captured with context</text>
+    <circle x="20" y="60" cx="105" cy="44" r="14" fill="#2d9fd9"/>
+    <text x="105" y="49" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" fill="#ffffff">1</text>
+  </g>
+
+  <!-- Arrow 1→2 -->
+  <line x1="190" y1="130" x2="216" y2="130" stroke="#7bc4e8" stroke-width="2"/>
+  <polygon points="216,124 228,130 216,136" fill="#7bc4e8"/>
+
+  <!-- Step 2 -->
+  <g>
+    <rect x="228" y="60" width="170" height="140" rx="14" fill="#ffffff" stroke="#2d9fd9" stroke-width="2"/>
+    <rect x="248" y="80" width="36" height="36" rx="8" fill="#d4ecf7"/>
+    <text x="266" y="104" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16">📋</text>
+    <text x="248" y="136" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="700" fill="#0a2847">Quote Activity</text>
+    <text x="248" y="156" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">Click-to-call from Epic</text>
+    <text x="248" y="170" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">with full account context</text>
+    <circle cx="313" cy="44" r="14" fill="#2d9fd9"/>
+    <text x="313" y="49" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" fill="#ffffff">2</text>
+  </g>
+
+  <!-- Arrow 2→3 -->
+  <line x1="398" y1="130" x2="424" y2="130" stroke="#7bc4e8" stroke-width="2"/>
+  <polygon points="424,124 436,130 424,136" fill="#7bc4e8"/>
+
+  <!-- Step 3 -->
+  <g>
+    <rect x="436" y="60" width="170" height="140" rx="14" fill="#ffffff" stroke="#2d9fd9" stroke-width="2"/>
+    <rect x="456" y="80" width="36" height="36" rx="8" fill="#d4ecf7"/>
+    <text x="474" y="104" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16">📱</text>
+    <text x="456" y="136" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="700" fill="#0a2847">Service &amp; Mobile</text>
+    <text x="456" y="156" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">Mobile calls recorded</text>
+    <text x="456" y="170" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">and synced to account</text>
+    <circle cx="521" cy="44" r="14" fill="#2d9fd9"/>
+    <text x="521" y="49" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" fill="#ffffff">3</text>
+  </g>
+
+  <!-- Arrow 3→4 -->
+  <line x1="606" y1="130" x2="632" y2="130" stroke="#7bc4e8" stroke-width="2"/>
+  <polygon points="632,124 644,130 632,136" fill="#7bc4e8"/>
+
+  <!-- Step 4 -->
+  <g>
+    <rect x="644" y="60" width="170" height="140" rx="14" fill="#ffffff" stroke="#2d9fd9" stroke-width="2"/>
+    <rect x="664" y="80" width="36" height="36" rx="8" fill="#d4ecf7"/>
+    <text x="682" y="104" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16">📊</text>
+    <text x="664" y="136" font-family="Inter,system-ui,sans-serif" font-size="13" font-weight="700" fill="#0a2847">Follow-up in Epic</text>
+    <text x="664" y="156" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">Transcripts, summaries</text>
+    <text x="664" y="170" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#3b5068">ready for account review</text>
+    <circle cx="729" cy="44" r="14" fill="#2d9fd9"/>
+    <text x="729" y="49" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" fill="#ffffff">4</text>
+  </g>
+
+  <!-- Arrow 4→5 -->
+  <line x1="814" y1="130" x2="840" y2="130" stroke="#7bc4e8" stroke-width="2"/>
+  <polygon points="840,124 852,130 840,136" fill="#7bc4e8"/>
+
+  <!-- Step 5 -->
+  <g>
+    <rect x="852" y="60" width="128" height="140" rx="14" fill="#0a2847" stroke="#1a6aad" stroke-width="2"/>
+    <rect x="872" y="80" width="36" height="36" rx="8" fill="rgba(45,159,217,0.2)"/>
+    <text x="890" y="104" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16">✅</text>
+    <text x="872" y="136" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Account</text>
+    <text x="872" y="152" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#ffffff">Review</text>
+    <text x="872" y="174" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#7bc4e8">Complete record</text>
+    <circle cx="916" cy="44" r="14" fill="#1a6aad"/>
+    <text x="916" y="49" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="700" fill="#ffffff">5</text>
+  </g>
+
+  <!-- Bottom label -->
+  <text x="500" y="280" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="600" fill="#6b8299">Commercial Lines Workflow — Every touchpoint captured from referral to account review</text>
+</svg>

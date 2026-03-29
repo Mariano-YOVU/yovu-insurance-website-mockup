@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500">
+  <defs>
+    <filter id="archShadow" x="-3%" y="-5%" width="106%" height="115%">
+      <feDropShadow dx="0" dy="3" stdDeviation="6" flood-color="#0a2847" flood-opacity="0.15"/>
+    </filter>
+    <filter id="archGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="8" flood-color="#2d9fd9" flood-opacity="0.2"/>
+    </filter>
+    <linearGradient id="platGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2d9fd9"/>
+      <stop offset="100%" stop-color="#1a6aad"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1000" height="500" fill="#eef6fb" rx="0"/>
+
+  <!-- Platform Box -->
+  <rect x="200" y="40" width="600" height="100" rx="16" fill="url(#platGrad)" filter="url(#archGlow)"/>
+  <text x="500" y="82" font-family="Inter,sans-serif" font-size="20" font-weight="700" fill="#ffffff" text-anchor="middle">YOVU Communications Platform</text>
+  <text x="500" y="106" font-family="Inter,sans-serif" font-size="12" fill="#d4ecf7" text-anchor="middle">Cloud-hosted · Insurance-optimised · Canadian data residency</text>
+
+  <!-- Connecting lines from platform to products -->
+  <line x1="340" y1="140" x2="190" y2="210" stroke="#2d9fd9" stroke-width="2.5" stroke-dasharray="0"/>
+  <line x1="500" y1="140" x2="500" y2="210" stroke="#2d9fd9" stroke-width="2.5"/>
+  <line x1="660" y1="140" x2="810" y2="210" stroke="#2d9fd9" stroke-width="2.5"/>
+  <!-- Arrow tips -->
+  <polygon points="185,206 195,206 190,216" fill="#2d9fd9"/>
+  <polygon points="495,206 505,206 500,216" fill="#2d9fd9"/>
+  <polygon points="805,206 815,206 810,216" fill="#2d9fd9"/>
+
+  <!-- Product: Communicator -->
+  <rect x="90" y="216" width="200" height="100" rx="14" fill="#ffffff" filter="url(#archShadow)"/>
+  <rect x="110" y="232" width="36" height="36" rx="8" fill="#d4ecf7"/>
+  <text x="119" y="256" font-family="Inter,sans-serif" font-size="20" fill="#2d9fd9">🖥</text>
+  <text x="156" y="252" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#0a2847">Communicator</text>
+  <text x="156" y="272" font-family="Inter,sans-serif" font-size="10" fill="#3b5068">Desktop softphone +</text>
+  <text x="156" y="286" font-family="Inter,sans-serif" font-size="10" fill="#3b5068">screen pop in browser</text>
+
+  <!-- Product: Mobile -->
+  <rect x="400" y="216" width="200" height="100" rx="14" fill="#ffffff" filter="url(#archShadow)"/>
+  <rect x="420" y="232" width="36" height="36" rx="8" fill="#d4ecf7"/>
+  <text x="429" y="256" font-family="Inter,sans-serif" font-size="20" fill="#2d9fd9">📱</text>
+  <text x="466" y="252" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#0a2847">Mobile</text>
+  <text x="466" y="272" font-family="Inter,sans-serif" font-size="10" fill="#3b5068">iOS &amp; Android app</text>
+  <text x="466" y="286" font-family="Inter,sans-serif" font-size="10" fill="#3b5068">for field work</text>
+
+  <!-- Product: Integrations -->
+  <rect x="710" y="216" width="200" height="100" rx="14" fill="#ffffff" filter="url(#archShadow)"/>
+  <rect x="730" y="232" width="36" height="36" rx="8" fill="#d4ecf7"/>
+  <text x="738" y="256" font-family="Inter,sans-serif" font-size="20" fill="#2d9fd9">🧩</text>
+  <text x="776" y="252" font-family="Inter,sans-serif" font-size="15" font-weight="700" fill="#0a2847">Integrations</text>
+  <text x="776" y="272" font-family="Inter,sans-serif" font-size="10" fill="#3b5068">CRM/BMS connectors</text>
+  <text x="776" y="286" font-family="Inter,sans-serif" font-size="10" fill="#3b5068">and API access</text>
+
+  <!-- Connecting lines from products to integrations row -->
+  <line x1="190" y1="316" x2="190" y2="370" stroke="#d4ecf7" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="500" y1="316" x2="500" y2="370" stroke="#d4ecf7" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <line x1="810" y1="316" x2="810" y2="370" stroke="#d4ecf7" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- Horizontal bus line -->
+  <line x1="100" y1="380" x2="900" y2="380" stroke="#d4ecf7" stroke-width="2"/>
+
+  <!-- Integration logos -->
+  <line x1="230" y1="380" x2="230" y2="410" stroke="#d4ecf7" stroke-width="1.5"/>
+  <rect x="150" y="410" width="160" height="56" rx="10" fill="#ffffff" filter="url(#archShadow)"/>
+  <rect x="164" y="422" width="30" height="30" rx="6" fill="#0a2847"/>
+  <text x="170" y="442" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#7bc4e8">AE</text>
+  <text x="200" y="438" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#0a2847">Applied Epic</text>
+  <text x="200" y="454" font-family="Inter,sans-serif" font-size="9" fill="#3b5068">Deep integration</text>
+
+  <line x1="500" y1="380" x2="500" y2="410" stroke="#d4ecf7" stroke-width="1.5"/>
+  <rect x="420" y="410" width="160" height="56" rx="10" fill="#ffffff" filter="url(#archShadow)"/>
+  <rect x="434" y="422" width="30" height="30" rx="6" fill="#0a2847"/>
+  <text x="441" y="442" font-family="Inter,sans-serif" font-size="11" font-weight="700" fill="#7bc4e8">SF</text>
+  <text x="470" y="438" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#0a2847">Salesforce</text>
+  <text x="470" y="454" font-family="Inter,sans-serif" font-size="9" fill="#3b5068">CRM connector</text>
+
+  <line x1="770" y1="380" x2="770" y2="410" stroke="#d4ecf7" stroke-width="1.5"/>
+  <rect x="690" y="410" width="160" height="56" rx="10" fill="#ffffff" filter="url(#archShadow)"/>
+  <rect x="704" y="422" width="30" height="30" rx="6" fill="#0a2847"/>
+  <text x="710" y="442" font-family="Inter,sans-serif" font-size="10" font-weight="700" fill="#7bc4e8">BMS</text>
+  <text x="740" y="438" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#0a2847">Browser CRM</text>
+  <text x="740" y="454" font-family="Inter,sans-serif" font-size="9" fill="#3b5068">Screen pop ready</text>
+</svg>

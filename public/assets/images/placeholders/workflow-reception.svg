@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250">
+  <rect width="1000" height="250" fill="#f7f9fb" rx="12"/>
+
+  <!-- Connecting line -->
+  <line x1="110" y1="100" x2="890" y2="100" stroke="#d4ecf7" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Step 1 -->
+  <circle cx="110" cy="100" r="28" fill="#2d9fd9" stroke="#ffffff" stroke-width="3"/>
+  <text x="110" y="106" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" fill="#ffffff">📞</text>
+  <text x="110" y="150" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Inbound Call</text>
+  <text x="110" y="168" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Main line rings</text>
+
+  <!-- Arrow 1→2 -->
+  <polygon points="168,96 178,100 168,104" fill="#7bc4e8"/>
+
+  <!-- Step 2 -->
+  <circle cx="305" cy="100" r="28" fill="#2d9fd9" stroke="#ffffff" stroke-width="3"/>
+  <text x="305" y="106" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" fill="#ffffff">👤</text>
+  <text x="305" y="150" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Caller Identified</text>
+  <text x="305" y="168" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Screen pop shows context</text>
+
+  <!-- Arrow 2→3 -->
+  <polygon points="363,96 373,100 363,104" fill="#7bc4e8"/>
+
+  <!-- Step 3 -->
+  <circle cx="500" cy="100" r="28" fill="#2d9fd9" stroke="#ffffff" stroke-width="3"/>
+  <text x="500" y="106" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" fill="#ffffff">🎯</text>
+  <text x="500" y="150" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Right Person / Queue</text>
+  <text x="500" y="168" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Directory + presence</text>
+
+  <!-- Arrow 3→4 -->
+  <polygon points="558,96 568,100 558,104" fill="#7bc4e8"/>
+
+  <!-- Step 4 -->
+  <circle cx="695" cy="100" r="28" fill="#1a6aad" stroke="#ffffff" stroke-width="3"/>
+  <text x="695" y="106" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" fill="#ffffff">⇄</text>
+  <text x="695" y="150" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Transfer w/ Context</text>
+  <text x="695" y="168" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Warm or blind transfer</text>
+
+  <!-- Arrow 4→5 -->
+  <polygon points="753,96 763,100 753,104" fill="#7bc4e8"/>
+
+  <!-- Step 5 -->
+  <circle cx="890" cy="100" r="28" fill="#0a2847" stroke="#2d9fd9" stroke-width="3"/>
+  <text x="890" y="106" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="16" fill="#ffffff">✅</text>
+  <text x="890" y="150" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="12" font-weight="700" fill="#0a2847">Activity Trail</text>
+  <text x="890" y="168" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="10" fill="#6b8299">Auto-logged to record</text>
+
+  <!-- Bottom label -->
+  <text x="500" y="220" text-anchor="middle" font-family="Inter,system-ui,sans-serif" font-size="11" font-weight="600" fill="#6b8299">Reception Workflow — Faster answering, smarter routing, complete documentation</text>
+</svg>

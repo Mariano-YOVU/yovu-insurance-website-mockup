@@ -15,53 +15,199 @@
 <header class="site-header"><div class="nav-bar"><a class="brand-link" href="/"><img class="brand-logo" src="/assets/images/yovu-logo.png" alt="YOVU" /></a><button class="nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Menu">☰</button><nav class="nav-menu" data-nav-menu><div class="nav-group"><div class="nav-group-label">Product</div><div class="nav-group-links"><a href="/platform">YOVU Communications Platform</a><a href="/communicator">YOVU Communicator</a><a href="/integrations">Integrations</a></div></div><div class="nav-group"><div class="nav-group-label">Solutions</div><div class="nav-group-links"><a href="/insurance-brokerages">Insurance Brokerages</a><a href="/insurance-brokerages/personal-lines">Personal Lines</a><a href="/insurance-brokerages/commercial-lines">Commercial Lines</a><a href="/insurance-brokerages/reception">Reception &amp; Front Desk</a><a href="/insurance-brokerages/operations">Agency Leaders &amp; Operations</a><a href="/insurance-brokerages/it-admin">IT &amp; Admin</a><a href="/industries">Beyond Insurance</a></div></div><div class="nav-group"><div class="nav-group-label">Proof</div><div class="nav-group-links"><a href="/customer-stories">Customer Stories</a><a href="/security-compliance">Security &amp; Compliance</a><a href="/support-onboarding">Support &amp; Onboarding</a></div></div><a class="nav-cta" href="/support-onboarding">Book a Demo</a></nav></div></header>
 
 <main class="page">
+  <!-- Hero — split layout with product screenshot -->
   <section class="hero">
-    <p class="eyebrow">Insurance-first communications platform</p>
-    <h1>Insurance client communications, inside the workflows your team already use.</h1>
-    <p>YOVU helps brokerages answer faster, surface client context in Applied Epic, log every conversation, and strengthen documentation without bouncing between systems.</p>
-    <div class="cta-row">
-      <a class="btn btn-primary" href="/support-onboarding">Book a brokerage demo</a>
-      <a class="btn btn-secondary" href="/integrations/applied-epic">See Communicator in Applied Epic</a>
+    <div class="hero-split">
+      <div class="hero-content">
+        <p class="eyebrow">Insurance-first communications platform</p>
+        <h1>Insurance client communications, inside the workflows your team already use.</h1>
+        <p>YOVU helps brokerages answer faster, surface client context in Applied Epic, log every conversation, and strengthen documentation without bouncing between systems.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="/support-onboarding">Book a brokerage demo</a>
+          <a class="btn btn-secondary" href="/integrations/applied-epic">See Communicator in Applied Epic</a>
+        </div>
+      </div>
+      <div class="hero-media">
+        <img src="/assets/images/placeholders/communicator-in-epic.svg" alt="YOVU Communicator embedded inside Applied Epic showing screen pop, call history, and activity logging" />
+      </div>
     </div>
   </section>
 
+  <!-- Trust bar with logo placeholders -->
   <div class="trust-bar">
-    <span class="trust-item">Trusted by Canadian brokerages</span>
-    <span class="trust-item">100% Canadian support</span>
-    <span class="trust-item">Built for Applied Epic workflows</span>
-    <span class="trust-item">Secure 7-year call-record retention</span>
+    <img src="/assets/images/placeholders/trust-logos-strip.svg" alt="Trusted by Canadian brokerages" style="width:100%;max-width:800px" />
   </div>
 
+  <!-- Section 2: Why brokerages change — 5 cards per copy pack -->
   <div class="section-heading" style="margin-top:3rem"><h2>Why brokerages change</h2><p>Transform missed context, manual notes, and weak handoffs into searchable, workflow-connected communication records.</p></div>
   <section class="section-grid">
-    <article class="card"><h3>Missed context → Screen pop inside Epic</h3><p>Caller context surfaces the moment the phone rings so teams stop hunting across systems.</p></article>
-    <article class="card"><h3>Manual notes → Logged activity and history</h3><p>Conversations are automatically captured, transcribed, and tied to the client record.</p></article>
-    <article class="card"><h3>Slow handoffs → Smarter routing and transfer</h3><p>Directory presence, warm transfer, and drag-and-drop conference controls reduce wrong-desk calls.</p></article>
+    <article class="card">
+      <div class="card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="4" fill="#d4ecf7"/><path d="M12 6v6l4 2" stroke="#2d9fd9" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="8" stroke="#2d9fd9" stroke-width="2" fill="none"/></svg></div>
+      <h3>Missed context → Screen pop inside Epic</h3>
+      <p>Caller context surfaces the moment the phone rings so teams stop hunting across systems.</p>
+    </article>
+    <article class="card">
+      <div class="card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="4" fill="#d4ecf7"/><path d="M4 6h16M4 10h16M4 14h10" stroke="#2d9fd9" stroke-width="2" stroke-linecap="round"/></svg></div>
+      <h3>Manual notes → Logged activity and history</h3>
+      <p>Conversations are automatically captured, transcribed, and tied to the client record.</p>
+    </article>
+    <article class="card">
+      <div class="card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="4" fill="#d4ecf7"/><path d="M8 12h8M12 8l4 4-4 4" stroke="#2d9fd9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <h3>Slow handoffs → Smarter routing and transfer</h3>
+      <p>Directory presence, warm transfer, and drag-and-drop conference controls reduce wrong-desk calls.</p>
+    </article>
+    <article class="card">
+      <div class="card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="4" fill="#d4ecf7"/><path d="M12 3v9l6 3M3 12a9 9 0 1018 0 9 9 0 10-18 0z" stroke="#2d9fd9" stroke-width="2" fill="none"/></svg></div>
+      <h3>Lost coaching → Recordings, transcripts, and sentiment</h3>
+      <p>Every conversation is recorded, transcribed, and summarised with AI — giving leaders real signals for coaching and improvement.</p>
+    </article>
+    <article class="card">
+      <div class="card-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="24" rx="4" fill="#d4ecf7"/><path d="M9 12l2 2 4-4" stroke="#2d9fd9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="3" y="3" width="18" height="18" rx="3" stroke="#2d9fd9" stroke-width="2" fill="none"/></svg></div>
+      <h3>Weak documentation → Audit-ready communication record</h3>
+      <p>Client-linked recordings, transcripts, and summaries retained for 7 years give brokerages a stronger, more defensible history.</p>
+    </article>
   </section>
 
-  <div class="section-heading" style="margin-top:3rem"><h2>What YOVU is</h2></div>
-  <section class="section-grid">
-    <article class="card"><h3>YOVU Communications Platform</h3><p>The parent product for calling, routing, mobile, recordings, reporting, and integrations.</p></article>
-    <article class="card"><h3>YOVU Communicator</h3><p>The embedded workspace inside Applied Epic and browser-based workflows.</p></article>
-    <article class="card"><h3>YOVU Mobile</h3><p>Keeps teams connected on the road with recorded calls that flow back to the office record.</p></article>
-  </section>
+  <!-- Section 3: What YOVU is — with product images -->
+  <div class="section-alt">
+    <div class="section-heading"><h2>What YOVU is</h2><p>Three products, one platform — built to work where your team already works.</p></div>
+    <section class="section-grid">
+      <article class="card">
+        <div class="screenshot-block" style="margin-bottom:1rem">
+          <img src="/assets/images/placeholders/platform-architecture.svg" alt="YOVU Communications Platform architecture" style="max-height:140px;object-fit:cover" />
+        </div>
+        <h3>YOVU Communications Platform</h3>
+        <p>The parent product for calling, routing, mobile, recordings, reporting, and integrations. Everything your brokerage needs in one Canadian-supported platform.</p>
+      </article>
+      <article class="card">
+        <div class="screenshot-block" style="margin-bottom:1rem">
+          <img src="/assets/images/placeholders/communicator-in-epic.svg" alt="YOVU Communicator in Applied Epic" style="max-height:140px;object-fit:cover" />
+        </div>
+        <h3>YOVU Communicator</h3>
+        <p>The embedded workspace inside Applied Epic and browser-based workflows — call control, context, history, transcripts, and AI summaries in one panel.</p>
+      </article>
+      <article class="card">
+        <div class="screenshot-block" style="margin-bottom:1rem">
+          <img src="/assets/images/placeholders/communicator-mobile.svg" alt="YOVU Mobile app" style="max-height:140px;object-fit:cover" />
+        </div>
+        <h3>YOVU Mobile</h3>
+        <p>Keeps teams connected on the road with recorded business calls, SMS, and voicemail that flow back to the office record automatically.</p>
+      </article>
+    </section>
+  </div>
 
+  <!-- Section 4: Built for the brokerage — narrative with workflow diagram -->
+  <div class="section-heading" style="margin-top:3rem"><h2>Built for the brokerage, not just the phone line</h2></div>
+  <div class="feature-stack">
+    <div class="feature-stack-item">
+      <div class="feature-text">
+        <h3>From reception to renewal, every conversation connected</h3>
+        <p>New business calls, service inquiries, claims conversations, renewal follow-ups — YOVU connects them all to the client record in Applied Epic. Faster response times, cleaner handoffs, fewer manual steps, and documentation your team can actually rely on.</p>
+        <p style="margin-top:0.75rem;color:var(--ink-soft)">Whether your team handles 50 calls a day or 500, the workflow is the same: the phone rings, context appears, the conversation is captured, and the record is complete.</p>
+      </div>
+      <div class="feature-media">
+        <img src="/assets/images/placeholders/before-after-brokerage.svg" alt="Before and after comparison — fragmented workflow versus YOVU connected workflow" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5: Choose your path — Zoom-style carousel -->
   <div class="section-heading" style="margin-top:3rem"><h2>Choose your path</h2><p>Explore how YOVU fits your role and workflow.</p></div>
-  <section class="section-grid">
-    <article class="card"><h3><a href="/insurance-brokerages">Insurance Brokerages</a></h3><p>Overview of brokerage communication and documentation value.</p></article>
-    <article class="card"><h3><a href="/insurance-brokerages/personal-lines">Personal Lines</a></h3><p>High-volume servicing, new business, and renewals.</p></article>
-    <article class="card"><h3><a href="/insurance-brokerages/commercial-lines">Commercial Lines</a></h3><p>Complex accounts and relationship-heavy workflows.</p></article>
-    <article class="card"><h3><a href="/insurance-brokerages/reception">Reception &amp; Front Desk</a></h3><p>Main-line answering and smarter call routing.</p></article>
-    <article class="card"><h3><a href="/insurance-brokerages/operations">Agency Leaders &amp; Operations</a></h3><p>Visibility, coaching, and documentation control.</p></article>
-    <article class="card"><h3><a href="/insurance-brokerages/it-admin">IT &amp; Admin</a></h3><p>Deployment, controls, and ongoing support model.</p></article>
-  </section>
+  <div class="carousel">
+    <button class="carousel-nav carousel-prev" aria-label="Previous">‹</button>
+    <button class="carousel-nav carousel-next" aria-label="Next">›</button>
+    <div class="carousel-track">
+      <div class="carousel-card active">
+        <div class="carousel-card-inner">
+          <div class="carousel-card-media">
+            <img src="/assets/images/placeholders/communicator-in-epic.svg" alt="Insurance brokerage workflows" />
+          </div>
+          <div class="carousel-card-body">
+            <h3>Insurance Brokerages</h3>
+            <p>Communication workflows built for modern insurance brokerages — from caller context to complete documentation.</p>
+            <a class="btn btn-outline" href="/insurance-brokerages">Explore →</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-card">
+        <div class="carousel-card-inner">
+          <div class="carousel-card-media">
+            <img src="/assets/images/placeholders/workflow-personal-lines.svg" alt="Personal lines workflow" />
+          </div>
+          <div class="carousel-card-body">
+            <h3>Personal Lines</h3>
+            <p>Help high-volume personal-lines teams respond faster, reduce manual work, and document every client touchpoint.</p>
+            <a class="btn btn-outline" href="/insurance-brokerages/personal-lines">Explore →</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-card">
+        <div class="carousel-card-inner">
+          <div class="carousel-card-media">
+            <img src="/assets/images/placeholders/workflow-commercial-lines.svg" alt="Commercial lines workflow" />
+          </div>
+          <div class="carousel-card-body">
+            <h3>Commercial Lines</h3>
+            <p>Give commercial teams the communication depth complex accounts demand — from referral to account review.</p>
+            <a class="btn btn-outline" href="/insurance-brokerages/commercial-lines">Explore →</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-card">
+        <div class="carousel-card-inner">
+          <div class="carousel-card-media">
+            <img src="/assets/images/placeholders/workflow-reception.svg" alt="Reception workflow" />
+          </div>
+          <div class="carousel-card-body">
+            <h3>Reception &amp; Front Desk</h3>
+            <p>Answer faster, route smarter, and transfer with context — without hunting across systems.</p>
+            <a class="btn btn-outline" href="/insurance-brokerages/reception">Explore →</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-card">
+        <div class="carousel-card-inner">
+          <div class="carousel-card-media">
+            <img src="/assets/images/placeholders/reporting-dashboard.svg" alt="Leadership dashboard" />
+          </div>
+          <div class="carousel-card-body">
+            <h3>Agency Leaders &amp; Operations</h3>
+            <p>More visibility into conversations, coaching signals, service consistency, and documentation control.</p>
+            <a class="btn btn-outline" href="/insurance-brokerages/operations">Explore →</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-card">
+        <div class="carousel-card-inner">
+          <div class="carousel-card-media">
+            <img src="/assets/images/placeholders/rollout-timeline.svg" alt="Deployment and support" />
+          </div>
+          <div class="carousel-card-body">
+            <h3>IT &amp; Admin</h3>
+            <p>Cleaner deployment, clearer controls, and a Canadian support team that stays involved after go-live.</p>
+            <a class="btn btn-outline" href="/insurance-brokerages/it-admin">Explore →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-dots">
+      <button class="carousel-dot active" aria-label="Slide 1"></button>
+      <button class="carousel-dot" aria-label="Slide 2"></button>
+      <button class="carousel-dot" aria-label="Slide 3"></button>
+      <button class="carousel-dot" aria-label="Slide 4"></button>
+      <button class="carousel-dot" aria-label="Slide 5"></button>
+      <button class="carousel-dot" aria-label="Slide 6"></button>
+    </div>
+  </div>
 
-  <section class="assurance-band">
+  <!-- Section 6: Beyond insurance -->
+  <section class="assurance-band" style="margin-top:3rem">
     <h2>Built for insurance. Flexible for any client-service team.</h2>
     <p>If your team works in a CRM, browser-based workflow, or high-volume client-service environment, YOVU can help centralize calling, context, and follow-up there too.</p>
     <div class="cta-row" style="justify-content:center;margin-top:1rem"><a class="btn btn-outline" href="/industries">Explore Beyond Insurance</a></div>
   </section>
 
+  <!-- Section 7: Closing CTA -->
   <section class="cta-band">
     <h2>See how YOVU fits your workflow</h2>
     <p>We will show you the exact brokerage workflow your team cares about — from reception and servicing to leadership and compliance.</p>
