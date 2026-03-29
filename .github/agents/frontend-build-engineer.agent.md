@@ -39,7 +39,7 @@ Implement the YOVU prototype as a performant, semantic, static multipage website
 - Font: Inter (Google Fonts, weights 400/500/600/700)
 
 ### Logo Paths
-- Header: `/assets/images/logos/yovu-logo.png` (class `.brand-logo`)
+- Header: `/assets/images/yovu-logo.png` (class `.brand-logo`)
 - Footer: same path (class `.footer-logo`)
 
 ### Shared Page Structure

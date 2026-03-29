@@ -52,7 +52,7 @@ Create a bold, cohesive visual system that supports conversion and readability a
 - Heading scale: h1 2.4rem, h2 1.6rem, h3 1.15rem
 
 ### Logo Assets
-- Primary logo: `/assets/images/logos/yovu-logo.png`
+- Primary logo: `/assets/images/yovu-logo.png`
 - Header logo class: `.brand-logo` (max-height 2rem)
 - Footer logo class: `.footer-logo` (max-height 1.5rem)
 
